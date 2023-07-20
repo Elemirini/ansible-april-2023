@@ -1,0 +1,7 @@
+- hosts: all
+  vars:
+    name: Elemir
+    team: Dev
+    company: Facebook 
+  tasks:
+  - debug: msg=" Hello {{name }}, you are a {{ team }}, you work for {{ company }}"
